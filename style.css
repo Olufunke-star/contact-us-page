@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #f6f5f7;
+  background:#f6f5f7;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -30,29 +30,35 @@ a {
   font-size: 16px;
   text-decoration: none;
   float: left;
-  color: #ffffff;
+  color: #716E7A;
+
   width: 530px;
-  margin-left: -17%;
+  margin-left: 49%;
 }
 
+a.lol  { margin-left: -39% ;}
 button.btn2 {
   font-family: "Space Grotesk";
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
   width: 110px;
-  margin-left: 385%;
-  background-color: #866ac4;
+  margin-left: 300%;
+  background-color: black;
+
   border: none;
   border-radius: 5px;
   cursor: pointer;
   padding: 15px;
   z-index: 9999;
-  color: #ffffff;
+  color:#2F2D33;
+  
   transition: all 0.3s ease 0s;
-  background: #0e0333;
+  background: #EDE3FF;
+  
   padding: 16px;
-  border: 1px solid white;
+  border: 1px solid #EDE3FF;
+  
   border-radius: 4px;
   height: 56px;
 }
@@ -63,8 +69,8 @@ button.btn3 {
   font-size: 18px;
   text-decoration: none;
   width: 110px;
-  margin-left: 458%;
-  background-color: #866ac4;
+  margin-left: 140%;
+  background-color:#3A0CA3 ;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -85,8 +91,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 4%;
-  background-color: #0e0333;
-  color: #ffffff;
+  background-color: #F6F5F7;
+
+  color: black;
+  
   width: 380%;
   /* position:sticky; */
   top: 0;
@@ -94,10 +102,12 @@ header {
 
 img.logo {
   float: left;
-  width: 100px;
+  width: 230px;
   cursor: pointer;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: 5%;
+  margin-top: -22%;
+  color:#2F2D33 !important;
+  background-color: #F6F5F7 !important;
 }
 
 ul.nav_links {
@@ -169,7 +179,8 @@ div.container {
   padding-left: 60px;
   padding-top: 50px;
   margin: 100px auto 0px auto;
-  background-color: #0e0333;
+  background-color: #F6F5F7;
+
   width: 140%;
   font-size: 18px;
   justify-content: center !important;
@@ -196,7 +207,7 @@ b {
   font-size: 14px;
   line-height: 40px;
   font-weight: 700;
-  color: #ffffff;
+  color:#2F2D33 ;
   height: 40px;
   width: 189px;
 }
@@ -259,6 +270,8 @@ textarea#message {
 form {
   margin: 40px;
   margin-left: 175px;
+  background: #F6F5F7;
+
 }
 
 .btns {
@@ -275,9 +288,9 @@ form {
   text-align: center;
   font-size: 18px;
   color: white;
-  background: #af97de;
+  background:#3A0CA3 ;
   padding: 8px 20px;
-  border: 1px solid #af97de;
+  border: 1px solid #3A0CA3;
   border-radius: 4px;
   text-decoration: none;
   margin-left: -130px;
@@ -292,9 +305,9 @@ form {
   text-align: center !important;
   font-size: 18px;
   background: white;
-  color: #866ac4;
+  color:#3A0CA3 ;
   padding: 16px;
-  border: 1px solid #876ac4;
+  border: 1px solid #3A0CA3;
   border-radius: 4px;
   text-decoration: none !important;
   margin-left: 50px;
@@ -305,7 +318,8 @@ form {
 
 .btn1:hover {
   transition: 0.5s;
-  background: #9a7fd8;
+  background: #866ac4 ;
+  border: none;
 }
 
 .btn2:hover {
@@ -323,6 +337,29 @@ p {
   
 }
 
+a2 { font-family: "Space Grotesk";
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  float: left;
+  color: #F6F5F7;
+
+  width: 500px;
+  margin-left: 0%;
+  
+}
+
+  p2 {
+  color: #2F2D33;
+
+  font-weight: 500;
+  font-size: 17.5px;
+  font-family: "Space Grotesk";
+  line-height: 40px;
+  width: 468px;
+}
+
+
 p5 {
   color: #ffffff;
   font-weight: 500;
@@ -330,17 +367,14 @@ p5 {
   font-family: "Space Grotesk";
   line-height: 40px;
   width: 330px;
-  
+  margin-left: 15% ;
 }
 
-p2 {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 17.5px;
-  font-family: "Space Grotesk";
-  line-height: 40px;
-  width: 468px;
-}
+li.home {  margin-left: -250%;}
+
+
+
+
 
 footer {
   background-color: #0e0333;
@@ -361,13 +395,13 @@ img.logof {
 img.contact {
   width: 100px;
   display: inline-block;
-  margin-left: -19%;
+  margin-left: 80%;
 }
 
 img.animations {
   width: 100px;
   display: inline-block;
-  margin-left: -19%;
+  margin-left: -25%;
 }
 
 .row {
@@ -379,10 +413,13 @@ div.column1 {
   margin-left: 50%;
 }
 
+
+p3 { margin-left: -30% ; 
+color : #F6F5F7;}
 div.column2 {
   flex: -50% !important;
   margin-right: 50%;
-  margin-left: -40%;
+  margin-left: -68%;
 }
 
 div.icons {
@@ -453,7 +490,7 @@ a.toggle-button {
   span.bar {
     height: 3px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #2F2D33;
     border-radius: 10px;
     margin-left: 50px;
   }
@@ -485,7 +522,7 @@ li { margin-left: 50%; float: left !important;}
      float:left !important; margin-top:-8.8% ;}
 
      img.logo { margin-bottom: 15%; padding-top: -15%;
-    
+     margin-top: -11%;
     }
     
     div.container {
@@ -494,7 +531,7 @@ li { margin-left: 50%; float: left !important;}
       padding-left: 55px;
       padding-top: 50px;
       margin: 100px auto 0px auto;
-      background-color: #0e0333;
+      background-color: #F6F5F7 ;
       width: 137%;
       font-size: 18px;
       justify-content: center !important;
@@ -569,7 +606,12 @@ li { margin-left: 50%; float: left !important;}
       margin-top: -2.15%;
       margin-left: -8%;
     }
-
+     
+    a2{ margin-left: -25%; }
+    img.contact { margin-left: 28%; }
+    img.animations { margin-left:-3% ;}
+    p3 { margin-left : -52%;}
+  div.column2 { margin-left:-120% ;}
  }
   
 
